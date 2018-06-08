@@ -1,0 +1,933 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\FL">
+      <UniqueIdentifier>{0a80bb01-d1d6-4356-b16d-513ef5eb468e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\FLTK">
+      <UniqueIdentifier>{8a08238a-6202-4761-a492-f6751ac3bcb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\xuft8">
+      <UniqueIdentifier>{c611cbe8-675d-4ac4-afeb-50def7cda10c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\filename_absolute.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\filename_expand.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\filename_ext.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\filename_isdir.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\filename_list.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\filename_match.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\filename_setext.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_abort.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_add_idle.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Adjuster.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_arc.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_arci.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_arg.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_ask.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Bitmap.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Box.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_boxtype.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Browser.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Browser_.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Browser_load.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Button.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Chart.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Check_Browser.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Check_Button.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Choice.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Clock.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_color.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Color_Chooser.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_compose.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Copy_Surface.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Counter.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_cursor.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_curve.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Device.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Dial.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_diamond_box.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_display.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_dnd.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Double_Window.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_draw.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_draw_image.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_draw_pixmap.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_encoding_latin1.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_engraved_label.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_File_Browser.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_File_Chooser.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_File_Chooser2.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_file_dir.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_File_Icon.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_File_Input.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_font.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_get_key.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_get_system_colors.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_gleam.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_grab.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Group.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_gtk.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Help_Dialog_Dox.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Help_View.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Image.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Image_Surface.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Input.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Input_.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_labeltype.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Light_Button.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_line_style.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_lock.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Menu.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Menu_.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Menu_add.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Menu_Bar.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Menu_Button.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Menu_global.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Menu_Window.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Multi_Label.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Native_File_Chooser.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_open_uri.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_oval_box.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_overlay.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_overlay_visual.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Overlay_Window.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_own_colormap.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Pack.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Paged_Device.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Pixmap.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_plastic.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Positioner.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_PostScript.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Preferences.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Printer.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Progress.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_read_image.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_rect.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Repeat_Button.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Return_Button.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Roller.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_round_box.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Round_Button.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_rounded_box.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Scroll.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_scroll_area.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Scrollbar.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_set_font.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_set_fonts.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_shadow_box.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Shared_Image.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_shortcut.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_show_colormap.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Single_Window.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Slider.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_symbols.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Table.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Table_Row.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Tabs.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Text_Buffer.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Text_Display.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Text_Editor.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Tile.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Tiled_Image.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Tooltip.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Tree.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Tree_Item.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Tree_Item_Array.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Tree_Prefs.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_utf8.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Valuator.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Value_Input.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Value_Output.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Value_Slider.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_vertex.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_visual.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Widget.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Window.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Window_fullscreen.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Window_hotspot.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Window_iconize.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Window_shape.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_Wizard.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_x.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_XBM_Image.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\Fl_XPM_Image.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\ps_image.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\screen_xywh.cxx">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\flstring.c">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\fl_utf.c">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\vsnprintf.c">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\scandir_win32.c">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\xutf8\case.c">
+      <Filter>源文件\xuft8</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\xutf8\is_right2left.c">
+      <Filter>源文件\xuft8</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\xutf8\is_spacing.c">
+      <Filter>源文件\xuft8</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\xutf8\keysym2Ucs.c">
+      <Filter>源文件\xuft8</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\xutf8\utf8Input.c">
+      <Filter>源文件\xuft8</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\xutf8\utf8Utils.c">
+      <Filter>源文件\xuft8</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\xutf8\utf8Wrap.c">
+      <Filter>源文件\xuft8</Filter>
+    </ClCompile>
+    <ClCompile Include="FLTK_SRC\numericsort.c">
+      <Filter>源文件\FLTK</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FLTK_SRC\FL\abi-version.h">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\dirent.h">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Enumerations.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\filename.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Adjuster.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\fl_ask.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Bitmap.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_BMP_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Box.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Browser.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Browser_.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Cairo.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Cairo_Window.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Chart.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Check_Browser.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Check_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Choice.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Clock.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Color_Chooser.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Copy_Surface.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Counter.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Device.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Dial.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Double_Window.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\fl_draw.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Export.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_File_Browser.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_File_Chooser.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_File_Icon.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_File_Input.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Fill_Dial.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Fill_Slider.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Float_Input.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_FormsBitmap.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_FormsPixmap.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Free.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_GIF_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Gl_Window.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Group.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Help_Dialog.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Help_View.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Hold_Browser.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Hor_Fill_Slider.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Hor_Nice_Slider.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Hor_Slider.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Hor_Value_Slider.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Image_Surface.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Input.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Input_.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Input_Choice.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Int_Input.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_JPEG_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Light_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Line_Dial.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Menu.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Menu_.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Menu_Bar.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Menu_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Menu_Item.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Menu_Window.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\fl_message.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Multi_Browser.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Multi_Label.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Multiline_Input.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Multiline_Output.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Native_File_Chooser.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Nice_Slider.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Object.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Output.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Overlay_Window.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Pack.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Paged_Device.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Pixmap.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Plugin.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_PNG_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_PNM_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Positioner.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_PostScript.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Preferences.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Printer.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Progress.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Radio_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Radio_Light_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Radio_Round_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Repeat_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Return_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_RGB_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Roller.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Round_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Round_Clock.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Scroll.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Scrollbar.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Secret_Input.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Select_Browser.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Shared_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\fl_show_colormap.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\fl_show_input.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Simple_Counter.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Single_Window.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Slider.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Spinner.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Sys_Menu_Bar.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Table.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Table_Row.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Tabs.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Text_Buffer.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Text_Display.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Text_Editor.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Tile.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Tiled_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Timer.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Toggle_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Toggle_Light_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Toggle_Round_Button.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Tooltip.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Tree.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Tree_Item.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Tree_Item_Array.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Tree_Prefs.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\fl_types.h">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\fl_utf8.h">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Valuator.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Value_Input.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Value_Output.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Value_Slider.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Widget.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Window.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_Wizard.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_XBM_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\Fl_XPM_Image.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\forms.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\gl.h">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\gl_draw.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\gl2opengl.h">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\glu.h">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\glut.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\mac.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\math.h">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\names.h">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\win32.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+    <ClInclude Include="FLTK_SRC\FL\x.H">
+      <Filter>头文件\FL</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
